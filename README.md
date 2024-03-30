@@ -42,6 +42,12 @@ sr_image = model.predict(image)
 sr_image.save('results/sr_image.png')
 ```
 
+
+GUI Usage:
+
+```python
+streamlit run run.py
+```
 ### Examples
 
 ---
