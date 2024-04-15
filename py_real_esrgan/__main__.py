@@ -5,7 +5,7 @@ from pathlib import Path
 import torch
 from PIL import Image
 
-from real_esrgan.model import RealESRGAN
+from py_real_esrgan.model import RealESRGAN
 
 
 def main():

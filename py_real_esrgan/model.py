@@ -5,8 +5,8 @@ import torch
 from PIL import Image
 from huggingface_hub import hf_hub_url, cached_download
 
-from real_esrgan.rrdbnet_arch import RRDBNet
-from real_esrgan.utils import pad_reflect, split_image_into_overlapping_patches, stich_together, \
+from py_real_esrgan.rrdbnet_arch import RRDBNet
+from py_real_esrgan.utils import pad_reflect, split_image_into_overlapping_patches, stich_together, \
     unpad_image
 
 HF_MODELS = {
