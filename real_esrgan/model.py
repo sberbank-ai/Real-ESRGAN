@@ -9,7 +9,6 @@ from real_esrgan.rrdbnet_arch import RRDBNet
 from real_esrgan.utils import pad_reflect, split_image_into_overlapping_patches, stich_together, \
     unpad_image
 
-
 HF_MODELS = {
     2: dict(
         repo_id='sberbank-ai/Real-ESRGAN',
