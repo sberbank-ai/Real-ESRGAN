@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "py-real-esrgan"
+version = "2.0.0"
+requires-python = ">= 3.10"
+authors = [
+    {name = "Sberbank AI, Xintao Wang"},
+]
+maintainers = [
+    {name = "Sberbank AI, Xintao Wang"},
+    {name = "nbdy"}
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "numpy",
+    "opencv-python",
+    "Pillow",
+    "torch>=1.7",
+    "torchvision>=0.8.0",
+    "tqdm",
+    "huggingface-hub"
+]
+
+[project.urls]
+Homepage = "https://github.com/ai-forever/Real-ESRGAN"
+Documentation = "https://github.com/ai-forever/Real-ESRGAN/wiki"
+Repository = "https://github.com/ai-forever/Real-ESRGAN.git"
+Issues = "https://github.com/ai-forever/Real-ESRGAN/issues"
+Changelog = "https://github.com/ai-forever/Real-ESRGAN/blob/main/CHANGELOG.md"
+
+[project.scripts]
+py-real-esrgan = "py_real_esrgan.__main__:main"
