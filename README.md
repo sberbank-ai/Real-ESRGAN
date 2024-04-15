@@ -26,8 +26,7 @@ Basic usage:
 ```python
 import torch
 from PIL import Image
-import numpy as np
-from RealESRGAN import RealESRGAN
+from real_esrgan.model import RealESRGAN
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
